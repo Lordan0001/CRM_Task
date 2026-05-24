@@ -1,0 +1,77 @@
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+publish/
+TestResults/
+.vs/
+.idea/
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+LogFiles/
+
+# Environment files
+*.env
+.env
+.env.*
+
+# Sensitive configuration
+appsettings.*.json
+!appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.seed
+*.db
+
+# Dependency directories
+node_modules/
+wwwroot/lib/
+bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# EF Core Migrations backup
+*.Designer.cs
+MigrationsBackup/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local tools
+tools/
+*.bak
+*.swp
+*.tmp
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+*.bak
+*.old

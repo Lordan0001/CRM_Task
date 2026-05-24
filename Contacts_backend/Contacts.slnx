@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Contacts.API/Contacts.API.csproj" />
+  <Project Path="Contacts.Application/Contacts.Application.csproj" />
+  <Project Path="Contacts.Domain/Contacts.Domain.csproj" />
+  <Project Path="Contacts.Infrastructure/Contacts.Infrastructure.csproj" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
+</Solution>
