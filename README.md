@@ -1,78 +1,57 @@
-\# Contact Management Web Application
+# Contact Management Web Application
 
-
-
-\## Overview
-
-
+## Overview
 
 Full-stack web application for managing a contact list. Backend is built with ASP.NET Core Web API using Clean Architecture. Frontend is built with React (JavaScript). The system supports full CRUD operations with validation on both client and server sides.
 
+---
 
+## Architecture
 
-\---
+### Backend
 
+- ASP.NET Core Web API
 
+- Clean Architecture
 
-\## Architecture
+- REST API for contacts
 
+- CRUD operations (Create, Read, Update, Delete)
 
+- Server-side validation and error handling
 
-\### Backend
+- Dockerized
 
-\- ASP.NET Core Web API
+### Frontend
 
-\- Clean Architecture
+- React (JavaScript)
 
-\- REST API for contacts
+- Contact management UI
 
-\- CRUD operations (Create, Read, Update, Delete)
+- Create, edit, delete contacts
 
-\- Server-side validation and error handling
+- Displays validation errors from backend and frontend
 
-\- Dockerized
+### Database
 
+- Microsoft SQL Server
 
+- Runs in Docker via Docker Compose
 
-\### Frontend
+---
 
-\- React (JavaScript)
+## Features
 
-\- Contact management UI
+- Create contacts
 
-\- Create, edit, delete contacts
+- View contacts list
 
-\- Displays validation errors from backend and frontend
+- Edit contacts
 
+- Delete contacts
 
+- Frontend validation
 
-\### Database
+- Backend validation
 
-\- Microsoft SQL Server
-
-\- Runs in Docker via Docker Compose
-
-
-
-\---
-
-
-
-\## Features
-
-
-
-\- Create contacts
-
-\- View contacts list
-
-\- Edit contacts
-
-\- Delete contacts
-
-\- Frontend validation
-
-\- Backend validation
-
-\- Unified error handling
-
+- Unified error handling
